@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified">
+  <xsd:element name="Hotels">
+    <xsd:complexType>
+      <xsd:sequence maxOccurs="unbounded">
+        <xsd:element name="Hotel" minOccurs="1" maxOccurs="unbounded">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"></xsd:element>
+              <xsd:element name="Contact" minOccurs="1" maxOccurs="1">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="Phone" type="xsd:string" minOccurs="1" maxOccurs="1"></xsd:element>
+                    <xsd:element name="Email" type="xsd:anyURI" minOccurs="1" maxOccurs="1"></xsd:element>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+              <xsd:element name="Address" minOccurs="1" maxOccurs="1">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="Number" type="xsd:int" minOccurs="1" maxOccurs="1"></xsd:element>
+                    <xsd:element name="Street" type="xsd:string" minOccurs="1" maxOccurs="1"></xsd:element>
+                    <xsd:element name="City" type="xsd:string" minOccurs="1" maxOccurs="1"></xsd:element>
+                    <xsd:element name="Zip" type="xsd:string" minOccurs="1" maxOccurs="1"></xsd:element>
+                  </xsd:sequence>
+                  <xsd:attribute name="Buslines" type="xsd:string" use="optional"></xsd:attribute>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+            <xsd:attribute name="Stars" type="xsd:string" use="required"></xsd:attribute>
+          </xsd:complexType>
+        </xsd:element> 
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

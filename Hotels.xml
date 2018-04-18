@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="Hotels.xsd"?>
+<Hotels>
+  
+  <Hotel Stars="****">
+    <Name>Tempe Mission Palms Hotel and Conference Center</Name>
+    <Contact>
+      <Phone>480 894-1400</Phone>
+      <Email>https://www.downtowntempe.com/go/tempe-mission-palms-hotel</Email>
+    </Contact>
+    <Address Buslines="69">
+      <Number>60</Number>
+      <Street>E 5th St</Street>
+      <City>Tempe</City>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Stars="*****">
+    <Name>The Phoenician</Name>
+    <Contact>
+      <Phone>480 941-8200</Phone>
+      <Email>https://www.thephoenician.com/</Email>
+    </Contact>
+    <Address Buslines="">
+      <Number>6000</Number>
+      <Street>E Camelback Rd</Street>
+      <City>Scottsdale</City>
+      <Zip>85251</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Stars="*****">
+    <Name>Renaissance Phoenix Downtown Hotel</Name>
+    <Contact>
+      <Phone>602 333-0000</Phone>
+      <Email>http://www.marriott.com/hotels/travel/phxbd-renaissance-phoenix-downtown-hotel/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2</Email>    
+    </Contact>
+    <Address BusLines="7">
+      <Number>100</Number>
+      <Street>N 1st St</Street>
+      <City>Phoenix</City>
+      <Zip>85004</Zip>
+    </Address>"
+  </Hotel>
+
+  <Hotel Stars="**">
+    <Name>Studio 6 Tempe</Name>
+    <Contact>
+      <Phone>602 414-4470</Phone>
+      <Email>https://www.staystudio6.com/en/motels.az.tempe.6031.html</Email>
+      <Address Buslines="60, 66">
+        <Number>4909</Number>
+        <Street>S Wendler Dr</Street>
+        <City>Tempe</City>
+        <Zip>85282</Zip>
+      </Address>
+    </Contact>
+  </Hotel>
+
+  <Hotel Stars="***">
+    <Name>Best Western Plus Tempe</Name>
+    <Contact>
+      <Phone>480 820-7500</Phone>
+      <Email>https://www.bestwestern.com/en_US/book/hotels-in-tempe/best-western-plus-tempe-by-the-mall/propertyCode.03144.html</Email>
+    </Contact>
+    <Address Buslines="">
+      <Number>5300</Number>
+      <Street>S Priest Dr</Street>
+      <City>Tempe</City>
+      <Zip>85283</Zip>
+    </Address>
+  </Hotel>
+  
+</Hotels>
