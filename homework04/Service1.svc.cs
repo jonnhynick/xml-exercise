@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Serialization;
-using System.ServiceModel;
-using System.ServiceModel.Web;
-using System.Text;
+using System.Xml;
+using System.Xml.Schema;
 
 namespace homework04
 {
@@ -12,22 +8,43 @@ namespace homework04
     // NOTE: In order to launch WCF Test Client for testing this service, please select Service1.svc or Service1.svc.cs at the Solution Explorer and start debugging.
     public class Service1 : IService1
     {
-        public string GetData(int value)
+        string result = string.Empty;
+        public string verification(string xmlURL, string xsdURL)
         {
-            return string.Format("You entered: {0}", value);
+
+            XmlSchemaSet schema;
+            XmlReaderSettings settings;
+            XmlReader reader;
+            try
+            {
+                schema = new XmlSchemaSet();
+                settings = new XmlReaderSettings();
+                schema.Add(null, "https://raw.githubusercontent.com/jonnhynick/xml-exercise/master/Hotels.xsd");//change into xsdURL
+                settings.ValidationType = ValidationType.Schema;
+                settings.Schemas = schema;
+                settings.ValidationEventHandler += new ValidationEventHandler(ValidationCallBack);
+                reader = XmlReader.Create("https://raw.githubusercontent.com/jonnhynick/xml-exercise/master/Hotels.xml", settings);
+                while (reader.Read()) { }
+                result = "Validation Succesful";
+            }
+            catch(Exception ex) { }
+            return result;
         }
 
-        public CompositeType GetDataUsingDataContract(CompositeType composite)
+        private void ValidationCallBack(object sender, ValidationEventArgs e)
         {
-            if (composite == null)
+            result = String.Format("Validation Error: ", e.Message);
+        }
+
+        public string xPathSearch(string xmlURL, string expression)
+        {
+            string result = string.Empty;
+            try
             {
-                throw new ArgumentNullException("composite");
+
             }
-            if (composite.BoolValue)
-            {
-                composite.StringValue += "Suffix";
-            }
-            return composite;
+            catch(Exception ex) { }
+            return result;
         }
     }
 }

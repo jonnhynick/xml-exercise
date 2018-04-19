@@ -1,0 +1,7 @@
+C:\Users\nick\source\repos\homework04\homework04\bin\homework04.dll.config
+C:\Users\nick\source\repos\homework04\homework04\bin\homework04.dll
+C:\Users\nick\source\repos\homework04\homework04\bin\homework04.pdb
+C:\Users\nick\source\repos\homework04\homework04\obj\Debug\homework04.csprojResolveAssemblyReference.cache
+C:\Users\nick\source\repos\homework04\homework04\obj\Debug\homework04.csproj.CoreCompileInputs.cache
+C:\Users\nick\source\repos\homework04\homework04\obj\Debug\homework04.dll
+C:\Users\nick\source\repos\homework04\homework04\obj\Debug\homework04.pdb
