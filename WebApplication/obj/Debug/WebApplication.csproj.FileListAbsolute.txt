@@ -51,7 +51,6 @@ C:\Users\nick\source\repos\homework04\WebApplication\bin\roslyn\VBCSCompiler.exe
 C:\Users\nick\source\repos\homework04\WebApplication\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\nick\source\repos\homework04\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\nick\source\repos\homework04\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\nick\source\repos\homework04\WebApplication\obj\Debug\WebApplication.csprojResolveAssemblyReference.cache
 C:\Users\nick\source\repos\homework04\WebApplication\obj\Debug\WebApplication.csproj.CoreCompileInputs.cache
 C:\Users\nick\source\repos\homework04\WebApplication\obj\Debug\WebApplication.csproj.CopyComplete
 C:\Users\nick\source\repos\homework04\WebApplication\obj\Debug\WebApplication.dll

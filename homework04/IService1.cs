@@ -17,7 +17,7 @@ namespace homework04
         string verification(string xmlURL, string xsdURL);
 
         [OperationContract]
-        [WebGet(ResponseFormat =WebMessageFormat.Json, UriTemplate ="/xPathSearch(xmlURL={xmlURL}&expression={expression}")]
+        [WebGet(ResponseFormat =WebMessageFormat.Json, UriTemplate ="/xPathSearch?xmlURL={xmlURL}&expression={expression}")]
         string xPathSearch(string xmlURL, string expression);
     }
 }
