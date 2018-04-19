@@ -36,7 +36,7 @@
       <Phone>602 333-0000</Phone>
       <Email>http://www.marriott.com/hotels/travel/phxbd-renaissance-phoenix-downtown-hotel/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2</Email>    
     </Contact>
-    <Address BusLines="7">
+    <Address Buslines="7">
       <Number>100</Number>
       <Street>N 1st St</Street>
       <City>Phoenix</City>
