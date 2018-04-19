@@ -55,3 +55,4 @@ C:\Users\nick\source\repos\homework04\WebApplication\obj\Debug\WebApplication.cs
 C:\Users\nick\source\repos\homework04\WebApplication\obj\Debug\WebApplication.csproj.CopyComplete
 C:\Users\nick\source\repos\homework04\WebApplication\obj\Debug\WebApplication.dll
 C:\Users\nick\source\repos\homework04\WebApplication\obj\Debug\WebApplication.pdb
+C:\Users\nick\source\repos\homework04\WebApplication\obj\Debug\WebApplication.csprojResolveAssemblyReference.cache
